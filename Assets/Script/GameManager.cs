@@ -1,8 +1,12 @@
+using NUnit.Framework;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    GetItem _getItem;
+    public GetItem _getItem;
+    
+
+    private int getItem = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
