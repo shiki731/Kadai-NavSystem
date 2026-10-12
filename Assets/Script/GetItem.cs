@@ -17,7 +17,8 @@ public class GetItem: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        tmp.text = getItemNum.ToString();
+        int _getItemNum = 4 - getItemNum;
+        tmp.text = _getItemNum.ToString();
     }
 
     private void OnTriggerEnter(Collider other)
