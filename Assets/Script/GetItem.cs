@@ -31,7 +31,7 @@ public class GetItem: MonoBehaviour
 
         if(getItemNum >= 4)
         {
-            SceneManager.LoadScene("ClearScene");
+            SceneManager.LoadScene("clearScene");
         }
     }
 
